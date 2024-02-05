@@ -7,7 +7,7 @@ export default function Cards3() {
     <View>
       <Text style={styles.headingText}>Trending Places</Text>
       <View style={[styles.card, styles.elevated]}>
-        <View style={{flex: 1}}>
+        <View style={styles.cardContainer}>
           <Image
             style={styles.cardImage}
             source={{
@@ -38,6 +38,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingBottom: 5,
   },
+  cardContainer: {
+    flex: 1,
+  },
   card: {
     width: 350,
     height: 360,
@@ -48,8 +51,6 @@ const styles = StyleSheet.create({
   elevated: {
     backgroundColor: '#747873',
     elevation: 5,
-    shadowOffset: {width: 1, height: 1},
-    shadowColor: '#000000',
   },
   cardImage: {
     height: 200,
