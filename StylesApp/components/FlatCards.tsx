@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     paddingHorizontal: 10,
+    paddingTop: 6,
   },
   container: {
     flex: 1,
