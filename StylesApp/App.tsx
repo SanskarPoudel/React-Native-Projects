@@ -3,6 +3,7 @@ import FlatCards from './components/FlatCards';
 import {SafeAreaView, ScrollView} from 'react-native';
 import ElevatedCards from './components/ElevatedCards';
 import Cards3 from './components/Cards3';
+import ActionCard from './components/ActionCard';
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <ElevatedCards />
         <Cards3 />
         <Cards3 />
+        <ActionCard />
       </ScrollView>
     </SafeAreaView>
   );
