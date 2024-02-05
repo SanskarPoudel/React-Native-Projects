@@ -4,6 +4,7 @@ import {SafeAreaView, ScrollView} from 'react-native';
 import ElevatedCards from './components/ElevatedCards';
 import Cards3 from './components/Cards3';
 import ActionCard from './components/ActionCard';
+import ContactList from './components/ContactList';
 
 const App: React.FC = () => {
   return (
@@ -12,8 +13,8 @@ const App: React.FC = () => {
         <FlatCards />
         <ElevatedCards />
         <Cards3 />
-        <Cards3 />
         <ActionCard />
+        <ContactList />
       </ScrollView>
     </SafeAreaView>
   );
