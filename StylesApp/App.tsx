@@ -11,6 +11,7 @@ const App: React.FC = () => {
         <FlatCards />
         <ElevatedCards />
         <Cards3 />
+        <Cards3 />
       </ScrollView>
     </SafeAreaView>
   );
